@@ -4,9 +4,12 @@
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_image.h>
 #include <allegro5/allegro_primitives.h>
+#include <allegro5/allegro_font.h>
+#include <allegro5/allegro_ttf.h>
 
 #include "global.h"
 #include "world.h"
+#include "border.h"
 
 typedef struct 
 {
@@ -22,6 +25,7 @@ typedef struct
     ALLEGRO_MOUSE_STATE mouse_state;
 
     ALLEGRO_TRANSFORM camera_transform;
+    float camera_x, camera_y;
 
     int cell_h, cell_w;
 
