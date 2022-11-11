@@ -1,5 +1,5 @@
 CC=gcc
-LIBS=-lallegro -lallegro_primitives -lallegro_font -lallegro_image -lallegro_ttf -lallegro_dialog
+LIBS=-lallegro -lallegro_primitives -lallegro_font -lallegro_image -lallegro_ttf -lallegro_dialog -lm
 FILES=src/*.c
 INC=$(shell pwd)
 

@@ -27,9 +27,11 @@ typedef struct
     ALLEGRO_TRANSFORM camera_transform;
     float camera_x, camera_y;
 
+    ALLEGRO_FONT* font_arial72;
+
     int cell_h, cell_w;
 
-    int show_grid;
+    int show_grid, show_cell_content, show_parity_break, kustom_coloring;
 
     World* world;
 } GraphicEngine;

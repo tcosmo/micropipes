@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <assert.h>
+#include <math.h>
 
 #define WHITE al_map_rgb_f(1,1,1)
 #define BLACK al_map_rgb_f(0,0,0)
@@ -13,6 +14,7 @@
 #define GREEN al_map_rgb(50,255,50)
 #define PINK al_map_rgb(255,44,180)
 #define BLUE al_map_rgb(30,44,230)
+#define RED al_map_rgb(255,44,0)
 
 #define CELL_UNDEFINED -1
 
